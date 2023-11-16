@@ -97,6 +97,16 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
+.header_area {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background: 0 0;
+}
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -109,7 +119,9 @@ img {vertical-align: middle;}
 </style>
 </head>
 <body>
-
+<div class="header_area">
+  header test
+</div>
 <div class="slideshow-container">
 
 <div class="mySlides fade" style="max-height: 350px;">
