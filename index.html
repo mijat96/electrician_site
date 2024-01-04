@@ -1,250 +1,447 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/logo_5.jpeg" type="">
+    <meta charset="utf-8">
+    <title>Električar Luka</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <title> Električar Luka </title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- nice select  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <div class="hero_area">
-    <div class="bg-box">
-      <img src="images/logo_5.JPG" alt="">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              Električar Luka
-            </span>
-          </a>
+    <!-- Spinner End -->
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Početna <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="galerija.html">Galerija</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="info.html">Info</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">Kontakt</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->    
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <h1>
-                      Popravka postojećih instalacija
-                    </h1>
-                  </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-white">
+                    <span>Pratite:</span>
+                    <!-- <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    <a class="btn btn-link text-light" href="https://www.instagram.com/elektro__stojanovic/?img_index=1"><i class="fab fa-instagram"></i></a>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <h1>
-                      Smart grejanje
-                    </h1>
-                  </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
+                    <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Kontakt:</span>
+                    <span class="fs-5 fw-bold">+381 69 1016996</span>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <h1>
-                      Video nadzor
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <h1>
-                      Ugradnja led rasvete
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <h1>
-                      Interfon
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <h1>
-                      Toplotne pumpe
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
+        <a href="index.html" class="navbar-brand ps-5 me-0">
+            <h1 class="text-white m-0">Električar Luka</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Početna</a>
+                <a href="#oNamaSekcija" class="nav-item nav-link">O nama</a>
+                <a href="#uslugeSekcija" class="nav-item nav-link">Usluge</a>
+                <a href="#galerijaSekcija" class="nav-item nav-link">Galerija</a>
+                <a href="#kontaktSekcija" class="nav-item nav-link">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/slika_11_1920x1080.jpg" alt="Image" style="max-width: 1920; max-height: 1080;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Ugradnja led rasvete</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slika_16_1920x1080.jpg" alt="Image" style="max-width: 1920; max-height: 1080;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Popravka postojećih, izvodjenje novi instalacija</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slika_8_1920x1080.jpg" alt="Image" style="max-width: 1920; max-height: 1080;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Smart grejanje, toplotne pumpe</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="oNamaSekcija">
         <div class="container">
-          <ol class="carousel-indicators">
-            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-            <li data-target="#customCarousel1" data-slide-to="1"></li>
-            <li data-target="#customCarousel1" data-slide-to="2"></li>
-            <li data-target="#customCarousel1" data-slide-to="3"></li>
-            <li data-target="#customCarousel1" data-slide-to="4"></li>
-            <li data-target="#customCarousel1" data-slide-to="5"></li>
-          </ol>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
-
-  <!-- end client section -->
-
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Kontakt
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Telefon 069 101 6996
-                </span>
-              </a>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="row gx-3 h-100">
+                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="img/slika_1.JPG">
+                        </div>
+                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="img/slika_2.JPG">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="fw-medium text-uppercase text-primary mb-2">O nama</p>
+                    <h1 class="display-5 mb-4">Električarske usluge</h1>
+                    <p class="mb-4">Rešavamo svaki vaš problem, kontaktirajte nas i u što kraćem vremenskom periodu smo na vašoj adresi. 
+                        U cilju nam je da naši klijenti budu zadovoljni sa pruženim uslugama, spremni smo na svaki izazov radi vaše sigurnosti.
+                    </p>
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="flex-shrink-0 bg-primary p-4">
+                            <h1 class="display-2">25</h1>
+                            <h5 class="text-white">Years of</h5>
+                            <h5 class="text-white">Experience</h5>
+                        </div>
+                        <div class="ms-4">
+                            <p><i class="fa fa-check text-primary me-2"></i>Popravka postojećih, izvodjenje novi instalacija</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Smart grejanje, toplotne pumpe</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Video nadzor</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Interfon</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Zamena utikača i prekidača</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Ugradnja led rasvete</p>
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <p class="mb-2">Pozovite</p>
+                                    <h5 class="mb-0">+381 69 1016996</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Društvene mreže
-            </h4>
-          <div class="footer_detail">
-            <div class="footer_social">
-              <a href="https://www.instagram.com/elektro__stojanovic/?img_index=1">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
+    </div>
+    <!-- About End -->
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="col-md-4 footer-col">
-        <div class="footer_contact">
-          <h4>
-            Lokacija
-          </h4>
-          <div class="contact_link_box">
-            <a href="https://maps.app.goo.gl/Zsiig4hxhN3ksncu8">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Lokacija
-              </span>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5" id="uslugeSekcija">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Naše usluge</p>
+                <h1 class="display-5 mb-4">Pružamo najkvalitetnije električarske usluge</h1>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Popravka postojećih, izvodjenje novi instalacija</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Popravka starih instalacija najkvalitetnijim materijalima. Otklanjanje kvarova i dodatno osiguranje postojećih instalacija, uz njihovo ispravno i sigurno funkcionisanje
+                                    Zamena starih stanskih tabli 
+                                    Ugradnja zastite(Fid) sklopke
+                                    Izvodjenje svih vrsta elektricnih instalacija. Provlačenje nove instalacije na efikasan i bezbedan način
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Smart grejanje, toplotne pumpe</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Moguće je preko interneta upravljati bilo kojom vrstom grejnih tela: podnim ili zidnim, radijatorima, fan-coil uređajima. Takođe, moguće je upravljati bilo kojom vrstom kotla, npr. toplotnom pumpom, centralnim bojlerom, gasnim, peletnim, električnim, pa čak i kotlovima na čvrsto gorivo. Nije neophodno posedovati najmodernije kotlove i opremu jer se ovakvi sistemi upravljanja mogu instalirati na već postojeće instalacije i značajno ih unaprediti, tj. učiniti ekonomičnijim i lakšim za korišćenje</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Video nadzor</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Usluge video nadzora pružaju Vam dodatnu sigurnost i zaštitu prostora putem modernih sistema video nadzora
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Interfon</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Želite efikasnu komunikaciju? Ugradite interfon radi lakšeg komuniciranja
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Zamena utikača i prekidača</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Zamena starih prekidača i utičnica 
+                                    Pomeranje utikača i prekidača na željenu poziciju
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Ugradnja led rasvete</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Ugradnja led rasvete pruža visokokvalitetne električne instalacije. Ušteda električne energije u odnosu na klasičnu rasvetu
+                                    Ugranja led traka 
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Project Start -->
+    <div class="container-fluid bg-dark pt-5 my-5 px-0" id="galerijaSekcija">
+        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="fw-medium text-uppercase text-primary mb-2"></p>
+            <h1 class="display-5 text-white mb-5">Galerija radova</h1>
+        </div>
+        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_1.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_2.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_3.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_4.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_5.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_6.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_7.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_8.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_9.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_10.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_11.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_12.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_13.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_14.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_15.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_16.JPG" alt="">
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img/slika_17.JPG" alt="">
             </a>
         </div>
-      </div>
     </div>
+    <!-- Project End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="kontaktSekcija">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Naš kontakt</h5>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+381 69 1016996</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://www.instagram.com/elektro__stojanovic/?img_index=1"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
-  <!-- footer section -->
+    <!-- Footer End -->
 
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- isotope js -->
-  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-  <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
 
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
